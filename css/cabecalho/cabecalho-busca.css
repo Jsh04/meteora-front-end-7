@@ -1,0 +1,27 @@
+.cabecalho__section-busca{
+    display: flex;
+    gap: 1rem;
+    margin-right: 3rem;
+}
+.cabecalho__input-busca{
+    height: 2rem;
+    padding: 0 0.5rem;
+}
+
+.cabecalho__button-busca{
+    padding: 0.5rem 0.75rem;
+    background: var(--preto-primary);
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.cabecalho__button-busca:hover{
+    color: #000;
+    background: #fff;
+}
+
+.cabecalho__input-busca::placeholder{
+    font-size: 1rem;
+
+}

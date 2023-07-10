@@ -1,13 +1,14 @@
 .cabecalho{
     background-color: var(--preto-primary);
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .cabecalho__sections-links{
     display: flex;
     align-items: center;
+    margin-left: 3rem;
 }

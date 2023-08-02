@@ -10,6 +10,7 @@
 
 .cabecalho__button-busca{
     padding: 0.5rem 0.75rem;
+    cursor: pointer;
     background: var(--preto-primary);
     border: 1px solid #fff;
     color: #fff;

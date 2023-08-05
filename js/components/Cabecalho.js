@@ -1,5 +1,5 @@
 export default {
-    template: `
+    template:/*template*/ `
     <header class="cabecalho">
         <div class="cabecalho__sections-links">
             <div><img src="/assets/Desktop/Logo-desktop.png"></div>

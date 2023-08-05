@@ -1,0 +1,19 @@
+.categoria{
+    width: 100%;
+    margin-top: 4rem;
+}
+.categoria__titulo-texto{
+    color: black;
+    font-weight: 500;
+}
+.card{
+    width: 100%;
+}
+.categoria__cards{
+    margin-top: 4rem;
+    display: grid;
+    max-width: 100%;
+    gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+}

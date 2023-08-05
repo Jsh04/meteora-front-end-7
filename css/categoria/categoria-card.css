@@ -1,0 +1,14 @@
+.card__descricao{
+    text-align: center;
+    background-color: black;
+    margin-top: 0;
+    padding: 0.5rem;
+}
+.card__imagem{
+    width: 100%;
+
+}
+.card__texto{
+    font-size: 1rem;
+    color: #ffffff;
+}

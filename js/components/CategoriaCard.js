@@ -1,9 +1,9 @@
 export default {
-    template: /*html*/ `
+    template: /*template*/ `
         <article class="card">
             <img class="card__imagem" :src="imagem" >
             <div class="card__descricao">
-                <p class="card__texto">{{titulo}}</p>
+                <p class="card__texto ff-inter">{{titulo}}</p>
             <div>
         </article>
     `,

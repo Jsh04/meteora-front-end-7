@@ -1,7 +1,7 @@
 
 export default {
     name: "Carrousel",
-    template: `
+    template: /*template*/ `
     <div class="carousel__container" v-for="(imagem, index) in listaDeImagens" :key="index">
         <img class="carousel__imagens" :src="imagem.url" :alt="imagem.alt" >
     </div>

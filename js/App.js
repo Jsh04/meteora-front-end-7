@@ -5,10 +5,13 @@ import Categoria from "./components/Categoria.js";
 
 const app = Vue.createApp({
     components: {Cabecalho, Carrousel, Categoria},
-    template: `
+    template: /*template*/ `
     <Cabecalho />
     <Carrousel />
-    <Categoria />
+    <main class="principal">
+        <Categoria />
+    </main>
+    
     `
 });
 

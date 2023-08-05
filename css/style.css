@@ -11,6 +11,7 @@
   }
   .ff-raleway { font-family: 'Raleway', sans-serif; }
   .ff-calistoga { font-family: 'Calistoga', cursive; }
+  .ff-inter { font-family: "Inter", cursive; }
   
   h1 {
     position: absolute;
@@ -19,10 +20,12 @@
     overflow: hidden;
   }
   
-  main{
-    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+  .principal{
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
   }
-  
+
   
   h2 {
     color: #154580;
@@ -44,6 +47,7 @@
     margin-left: auto;
   }
   
+
   .botao {
     background: #154580;
     color: #ffffff;

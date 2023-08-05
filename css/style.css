@@ -2,7 +2,10 @@
 
 
 :root{
-    --preto-primary: #000000
+    --preto-primary: #000000;
+    --cinza-primary: #ccc;
+    --roxo-primary: #9353ff;
+    --amarelo-primary: #DAFF01;
 }
 
 * {

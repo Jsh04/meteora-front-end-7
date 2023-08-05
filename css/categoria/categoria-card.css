@@ -1,14 +1,13 @@
-.card__descricao{
+.card-categoria__descricao{
     text-align: center;
     background-color: black;
     margin-top: 0;
     padding: 0.5rem;
 }
-.card__imagem{
+.card-categoria__imagem{
     width: 100%;
-
 }
-.card__texto{
+.card-categoria__texto{
     font-size: 1rem;
     color: #ffffff;
 }

@@ -3,7 +3,7 @@
     margin-top: 4rem;
 }
 .categoria__titulo-texto{
-    color: black;
+    color: var(--preto-primary);
     font-weight: 500;
 }
 .card{
@@ -15,5 +15,6 @@
     max-width: 100%;
     gap: 1rem;
     grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100%;
     width: 100%;
 }

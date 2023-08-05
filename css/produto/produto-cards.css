@@ -1,0 +1,43 @@
+.card-produto{
+    width: 100%;
+    border: 1px solid 
+    rgba(0, 0, 0, 0.13);
+}
+.card-produto__imagem{
+    width: 100%;
+}
+
+.card-produto__container{
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.card-produto__titulo-texto{
+    
+    font-size: 1rem;
+    font-weight: 700;
+}
+.card-produto__descricao{
+    margin-top: 1rem;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.card-produto__descricao-container{
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+.card-produto__preco{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.card-produto__botao-ver-mais{
+    color: white;
+    padding: 9px 1rem;
+    margin-top: 1rem;
+    border: navajowhite;
+    background-color: var(--roxo-primary);
+    cursor: pointer;
+}

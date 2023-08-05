@@ -1,0 +1,16 @@
+.produto{
+    margin-top: 4rem;
+}
+
+.produto__titulo-texto{
+    font-size: 2rem;
+    color: var(--preto-primary);
+    font-weight: 500;
+}
+.produtos__cards{
+    display: grid;
+    margin-top: 4rem;
+    gap: 1rem;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}

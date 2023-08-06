@@ -1,0 +1,12 @@
+.promocoes{
+    padding: 4rem 20%;
+}
+.promocoes__container{
+    border: 2px solid var(--preto-primary);
+    padding: 40px;
+}
+.promocoes__titulo-texto{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}

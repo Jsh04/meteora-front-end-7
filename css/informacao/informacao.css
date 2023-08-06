@@ -1,0 +1,19 @@
+.informacao{
+    margin-top: 5rem;
+    background-color: var(--preto-primary);
+    padding: 2.5rem 10%;
+}
+
+.informacao__titulo-texto{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.informacao__detalhes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3rem;
+}

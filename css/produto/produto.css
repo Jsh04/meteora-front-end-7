@@ -4,6 +4,7 @@
 
 .produto__titulo-texto{
     font-size: 2rem;
+    text-align: center;
     color: var(--preto-primary);
     font-weight: 500;
 }

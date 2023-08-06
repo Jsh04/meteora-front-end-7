@@ -16,38 +16,18 @@
   .ff-calistoga { font-family: 'Calistoga', cursive; }
   .ff-inter { font-family: "Inter", cursive; }
   
-  h1 {
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-  }
   
-  .principal{
-    width: 100%;
-    padding: 0 10%;
-    box-sizing: border-box;
-  }
+  
 
-  
-  h2 {
-    color: #154580;
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-  }
   
   .header {
     margin: 1rem auto 2rem;
   }
   
   .container {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
   }
   
 
@@ -66,25 +46,4 @@
   .botao:hover {
     border: 2px solid #84EEC1;
     color: #84EEC1;
-  }
-  
-  @media (min-width: 576px) {
-    .container {
-        width: 540px;
-    }
-  }
-  @media (min-width: 768px) {
-    .container {
-        width: 720px;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-        width: 960px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-        width: 1140px;
-    }
   }

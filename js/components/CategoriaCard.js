@@ -4,7 +4,7 @@ export default {
             <img class="card-categoria__imagem" :src="imagem" >
             <div class="card-categoria__descricao">
                 <p class="card-categoria__texto ff-inter">{{titulo}}</p>
-            <div>
+            </div>
         </article>
     `,
     props:{

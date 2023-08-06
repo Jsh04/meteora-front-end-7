@@ -5,6 +5,8 @@
 .categoria__titulo-texto{
     color: var(--preto-primary);
     font-weight: 500;
+    text-align: center;
+    font-size: 2rem;
 }
 .card{
     width: 100%;

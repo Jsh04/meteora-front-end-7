@@ -4,11 +4,10 @@ import Categoria from "./components/Categoria.js";
 import Informacao from "./components/Informacao.js";
 import Produto from "./components/Produto.js";
 import PromocoesEmail from "./components/PromocoesEmail.js";
-
-
+import Rodape from "./components/Rodape.js";
 
 const app = Vue.createApp({
-    components: {Cabecalho, Carrousel, Categoria, Produto, Informacao, PromocoesEmail},
+    components: {Cabecalho, Carrousel, Categoria, Produto, Informacao, PromocoesEmail, Rodape},
     template: /*template*/ `
     <Cabecalho />
     <Carrousel />
@@ -20,6 +19,7 @@ const app = Vue.createApp({
         <Informacao />
         <PromocoesEmail /> 
     </main>
+    <Rodape />
     
     `
 });

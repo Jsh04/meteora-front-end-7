@@ -1,0 +1,12 @@
+.rodape{
+    background-color: #000;
+    padding: 1rem;
+}
+
+.rodape__conteudo-texto{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.25rem;
+}

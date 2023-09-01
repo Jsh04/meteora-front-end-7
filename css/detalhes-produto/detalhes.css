@@ -1,0 +1,21 @@
+.detalhes{
+    padding: 0 1rem;
+    width: 668px;
+    height: 474;
+}
+
+.detalhes__cabecalho{
+    background-color: black;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.detalhes__cabecalho-titulo{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

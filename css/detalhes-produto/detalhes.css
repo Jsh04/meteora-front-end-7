@@ -1,13 +1,24 @@
 .detalhes{
-    padding: 0 1rem;
     width: 668px;
     height: 474;
+    position: fixed;
+    top: 3rem;
+    left: 25%;
+    background-color:#FFF;
+    transition: all 0.5s;
+    transform: translateY(0);
+}
+
+.desactive-modal{
+    transition: all 0.5s;
+    transform: translateY(-1000px);
+    
 }
 
 .detalhes__cabecalho{
     background-color: black;
-    display: flex;
     padding: 1rem;
+    display: flex;
     justify-content: space-between;
     color: white;
     align-items: center;

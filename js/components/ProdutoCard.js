@@ -15,7 +15,7 @@ export default {
             </div>
         </div> 
     </article>
-    <DetalheProduto @fechar-modal-detalhes="fecharModal" :isActiveModal="isActiveModal" :produto="produto" >
+   <DetalheProduto @fechar-modal-detalhes="fecharModal" :isActiveModal="isActiveModal" :produto="produto">
     
     `,
     name: "ProdutoCard",

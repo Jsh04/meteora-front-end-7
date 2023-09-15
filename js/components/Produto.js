@@ -8,7 +8,7 @@ export default {
                 <h2 class="produto__titulo-texto ff-inter">Produtos que estão bombando!</h2>
             </div>
             <div class="produtos__cards">
-                <ProdutoCard v-for="(produto, index) in listaDeProdutos" :key="index" :imagem="produto.imagem" :titulo="produto.titulo" :descricao="produto.descricao" :preco="produto.preco"/>
+                <ProdutoCard v-for="(produto, index) in listaDeProdutos" :key="index" :produto="produto"/>
             </div>
 
         </section>

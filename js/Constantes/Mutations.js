@@ -1,0 +1,1 @@
+export const PEGAR_LISTA_PRODUTOS = "LISTA_PRODUTOS"

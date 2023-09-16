@@ -6,6 +6,8 @@ import Informacao from "./components/Informacao.js";
 import Produto from "./components/Produto.js";
 import PromocoesEmail from "./components/PromocoesEmail.js";
 import Rodape from "./components/Rodape.js";
+import { store, key } from "./store/index.js";
+
 
 const app = Vue.createApp({
     components: {Cabecalho, Carrousel, Categoria, Produto, Informacao, PromocoesEmail, Rodape,DetalheProduto},
@@ -25,5 +27,5 @@ const app = Vue.createApp({
     `
 });
 
-app.mount("#app")
+app.use(store, key).mount("#app")
 

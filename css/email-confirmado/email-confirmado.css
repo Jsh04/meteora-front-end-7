@@ -1,0 +1,35 @@
+.email-confirmado{
+    position: fixed;
+    top: 3rem;
+    left: 25%;
+    z-index: 10;
+    width: 50%;
+    transform: translateY(-500px);
+    transition: all 0.5s;
+}
+
+.email-confirmado__envviado-sucesso{
+    transform: translateY(0px);
+}
+
+.email-confirmado__cabecalho{
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    
+}
+
+.email-confirmado__corpo{
+    padding: 2rem;
+    background-color: white;
+}
+
+.email-confirmado__corpo p {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}

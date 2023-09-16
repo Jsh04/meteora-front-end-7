@@ -19,8 +19,11 @@ export const store = Vuex.createStore({
             return context.commit(PEGAR_LISTA_PRODUTOS, dados.data)
         },
         async [CADASTRAR_EMAIL](context, email){
-            const response = await HttpClient.post(`/email`, email)
-            console.log(response);
+            console.log(email);
+            const res = await HttpClient.post('/email', {
+                email
+            })
+            return res
         }
     }
 })

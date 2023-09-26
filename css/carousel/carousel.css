@@ -29,6 +29,29 @@
     left: 2rem;
 }
 
+.carousel__menu-tablet{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+
+.carousel__menu-tablet-item{
+    display: inline-block;
+    margin-left: 1rem;
+    background-color: white;
+    padding: 0.125rem 1rem;
+    cursor: pointer;
+}
+
+.carousel__menu-tablet-item-desactive{
+    display: inline-block;
+    margin-left: 1rem;
+    background-color: white;
+    padding: 0.125rem 1rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 #ant{
     position: absolute;
     top: 35%;

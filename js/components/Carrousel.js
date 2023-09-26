@@ -18,10 +18,19 @@ export default {
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2466 1.05026C13.1152 0.981861 12.9721 0.94766 12.829 0.94766C12.649 0.94766 12.4708 1.00166 12.3169 1.10786L0.616903 9.20786C0.373903 9.37616 0.229004 9.65246 0.229004 9.94766C0.229004 10.2429 0.373903 10.5192 0.616903 10.6875L12.3169 18.7875C12.5914 18.9774 12.9505 18.9999 13.2466 18.8451C13.5436 18.6894 13.729 18.3825 13.729 18.0477L13.729 1.84766C13.729 1.51286 13.5436 1.20596 13.2466 1.05026Z" fill="white"/>
                 </svg>
             </span>
+            <div v-if="widthTablet" class="carousel__menu-tablet">
+                <ul>
+                    <li @click="indiceAtual(0)" :class="[visibleSlide == 0 ? 'carousel__menu-tablet-item' : 'carousel__menu-tablet-item-desactive']" ></li>
+                    <li @click="indiceAtual(1)" :class="[visibleSlide == 1 ? 'carousel__menu-tablet-item' : 'carousel__menu-tablet-item-desactive']"></li>
+                    <li @click="indiceAtual(2)" :class="[visibleSlide == 2 ? 'carousel__menu-tablet-item' : 'carousel__menu-tablet-item-desactive']"></li>
+                </ul>
+            </div>
+            
         </CarrouselContainer>
     </div>
     `,
     components: { CarrouselSlide, CarrouselContainer },
+    
     data() {
         return {
             slides: [
@@ -40,13 +49,14 @@ export default {
             ],
             visibleSlide: 0,
             indexSlide : 0,
-            slideDirection: ''
+            slideDirection: '',
+            widthTablet: false
         }
     },
     computed: {
         slidesLength() {
             return this.slides.length;
-        }
+        },
     },
     methods: {
         next(){
@@ -62,6 +72,22 @@ export default {
                 this.visibleSlide = this.slidesLength - 1;
             }
             this.slideDirection = 'slide-left';
+        },
+        indiceAtual(index){
+            this.visibleSlide = index
+        },
+
+        redimencionamentoDeTela(){
+            const $this = this
+            window.onresize = function(){
+                if(window.innerWidth < 768){
+                    $this.widthTablet = true
+                }else
+                    $this.widthTablet = false
+            }
         }
+    },
+    mounted() {
+        this.redimencionamentoDeTela()
     },
 };

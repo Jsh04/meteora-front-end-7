@@ -7,7 +7,7 @@ export default {
             <h2 class="informacao__titulo-texto ff-inter">Conheça todas as nossas facilidades</h2>
         </div>
         <div class="informacao__detalhes">
-        <InformacaoDetalhes v-for="(detalhes, index) in listaDedetalhes" :key="index" :imagem="detalhes.imagem" :titulo="detalhes.titulo" :descricao="detalhes.descricao" :descricaoImagem="detalhes.imagemDescricao"/>
+            <InformacaoDetalhes v-for="(detalhes, index) in listaDedetalhes" :key="index" :imagem="detalhes.imagem" :titulo="detalhes.titulo" :descricao="detalhes.descricao" :descricaoImagem="detalhes.imagemDescricao"/>
         </div>
         
     </section>

@@ -10,3 +10,9 @@
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+    .promocoes{
+        padding: 4rem 10%;
+    }
+}

@@ -1,5 +1,5 @@
 export default {
-    template:/*template*/ `
+    template:/*template*/`
     <header class="cabecalho">
         <div class="cabecalho__sections-links">
             <div><img src="/assets/Desktop/Logo-desktop.png"></div>
@@ -15,7 +15,6 @@ export default {
             <button class="cabecalho__button-busca" @click="enviarFiltro()" type="submit">Buscar</button>
         </div>
     </header>
-
     `,
 
     name: "Cabecalho",
@@ -31,3 +30,6 @@ export default {
         }
     },
 }
+
+
+

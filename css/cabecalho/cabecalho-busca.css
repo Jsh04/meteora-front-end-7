@@ -25,3 +25,12 @@
 .cabecalho__input-busca::placeholder{
     font-size: 1rem;
 }
+
+@media screen and (max-width: 768px){
+    .cabecalho__input-busca{
+        padding: 0 0.25rem;
+    }
+    .cabecalho__section-busca{
+        margin-right: 1.5rem;
+    }
+}

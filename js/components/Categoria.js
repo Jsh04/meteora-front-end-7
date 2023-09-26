@@ -3,9 +3,11 @@ export default {
     
     template:/*template*/ `  
         <section class="categoria">
-            <div class="categoria__titulo"><h2 class="categoria__titulo-texto ff-inter ">Busque por categoria:</h2></div>
+            <div class="categoria__titulo">
+                <h2 class="categoria__titulo-texto ff-inter ">Busque por categoria:</h2>
+            </div>
             <div class="categoria__cards">
-            <CategoriaCard v-for="(card, index) in listaDeCategorias" :key="index" :imagem="card.imagem" :titulo="card.titulo" />
+                <CategoriaCard v-for="(card, index) in listaDeCategorias" :key="index" :imagem="card.imagem" :titulo="card.titulo" />
             </div>
             
         </section>

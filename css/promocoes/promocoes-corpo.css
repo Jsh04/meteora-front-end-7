@@ -26,3 +26,10 @@
     line-height: 23px;
 }
 
+@media screen and (max-width: 768px) {
+    .promocoes__corpo-botao{
+        width: 105px;
+    }
+}
+
+

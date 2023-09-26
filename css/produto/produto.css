@@ -15,3 +15,9 @@
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media screen and (max-width: 768px) {
+    .produtos__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

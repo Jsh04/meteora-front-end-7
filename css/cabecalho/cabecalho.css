@@ -13,11 +13,23 @@
     margin-left: 3rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and ((min-width: 501px) and (max-width: 768px)){
     .cabecalho{
         padding: 1rem 0 1rem 1rem;
     }
     .cabecalho__sections-links{
         margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .cabecalho{
+        justify-content: space-around;
+    }
+    .cabecalho__sections-links{
+        margin-left: 0;
+    }
+    .cabecalho__btn-mobile{
+        cursor: pointer;
     }
 }

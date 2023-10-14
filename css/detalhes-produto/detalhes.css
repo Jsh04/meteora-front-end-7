@@ -1,9 +1,7 @@
 .detalhes{
     width: 668px;
-    height: 474;
     position: fixed;
     top: 3rem;
-    left: 25%;
     background-color:#FFF;
     transition: all 0.5s;
     transform: translateY(0);
@@ -11,8 +9,7 @@
 
 .desactive-modal{
     transition: all 0.5s;
-    transform: translateY(-1000px);
-    
+    transform: translateY(-1200px);
 }
 
 .detalhes__cabecalho{
@@ -29,4 +26,16 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+@media screen and (max-width: 375px) {
+    .detalhes{
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:#FFF;
+        overflow: scroll;
+    }
 }

@@ -34,3 +34,19 @@
         margin-right: 1.5rem;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .cabecalho-mobile__container-search{
+        background-color: white;
+        padding: 1rem 1.5rem;
+        justify-content: center;
+        display: flex;
+        column-gap: 1rem;
+    }
+    .cabecalho__button-busca{
+        background-color: white;
+        border: 1px solid #000;
+        color: #000;
+        
+    }
+}

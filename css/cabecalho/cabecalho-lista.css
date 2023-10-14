@@ -18,3 +18,27 @@
         font-size: 13px;
     }
 }
+
+@media screen and (max-width: 375px){
+    .cabecalho-mobile__lista{
+        position: absolute;
+        left: 245px;
+        list-style: none;
+        background-color: #343A40;
+        padding: 1rem;
+        top: 65px;
+        z-index: 99;
+    }
+    .cabecalho-mobile__item{
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: normal;
+        border-bottom: 1px solid white ;
+        padding: 0.5rem 0;
+    
+    }
+    .cabecalho-mobile__item:nth-child(4){
+        border: none;
+    }
+}

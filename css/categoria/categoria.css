@@ -27,3 +27,9 @@
         grid-template-rows: 50%;
     }
 }
+@media screen and (max-width: 375px) {
+    .categoria__cards{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 33%;
+    }
+}

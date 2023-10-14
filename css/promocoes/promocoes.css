@@ -16,3 +16,10 @@
         padding: 4rem 10%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .promocoes__container{
+        padding: 20px;
+    }
+    
+}

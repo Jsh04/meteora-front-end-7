@@ -32,4 +32,10 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .promocoes__corpo{
+        padding: 0;
+    }
+}
+
 

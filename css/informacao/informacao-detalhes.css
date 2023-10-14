@@ -28,3 +28,9 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .informacao-detalhes{
+        width: 100%;
+    }
+}
